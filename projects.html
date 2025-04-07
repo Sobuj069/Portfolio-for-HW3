@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/lucide-icons/dist/umd/lucide-icons.css">
+    <style>
+      .project-card img {
+        object-fit: cover;
+        height: 300px;
+      }
+      .tech-tag {
+        background-color: #f8f9fa;
+        border-radius: 50px;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.875rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="min-vh-100 bg-light">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Projects Section -->
+      <div class="container py-5">
+        <h1 class="mb-5 fw-bold">My Projects</h1>
+        <div class="row g-4">
+          <!-- Project Card -->
+          <div class="col-md-6">
+            <div class="card shadow-sm project-card">
+              <img src="main-slider-1-1 1.png" class="card-img-top" alt="E-commerce Platform">
+              <div class="card-body">
+                <h5 class="card-title">A Agricultural E-commerce Platform</h5>
+                <p class="card-text">A full-featured online store built with React and Laravel</p>
+                <div class="mb-3">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">Mysql</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+                <a href="https://example.com" class="btn btn-primary btn-sm me-2"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="https://github.com" class="btn btn-outline-secondary btn-sm"><i data-lucide="github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card -->
+          <div class="col-md-6">
+            <div class="card shadow-sm project-card">
+              <img src="https://www.cflowapps.com/wp-content/uploads/2018/07/task-management-process.png" class="card-img-top" alt="Task Management App">
+              <div class="card-body">
+                <h5 class="card-title">Task Management App</h5>
+                <p class="card-text">A productivity tool for teams to manage projects and tasks</p>
+                <div class="mb-3">
+                  <span class="tech-tag">Vue.js</span>
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">Mysql</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+                <a href="https://example.com" class="btn btn-primary btn-sm me-2"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="https://github.com" class="btn btn-outline-secondary btn-sm"><i data-lucide="github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card -->
+          <div class="col-md-6">
+            <div class="card shadow-sm project-card">
+              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80" class="card-img-top" alt="Portfolio Website">
+              <div class="card-body">
+                <h5 class="card-title">Portfolio Website</h5>
+                <p class="card-text">A personal portfolio website showcasing my work</p>
+                <div class="mb-3">
+                  <span class="tech-tag">Html5</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+                <a href="https://example.com" class="btn btn-primary btn-sm me-2"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="https://github.com" class="btn btn-outline-secondary btn-sm"><i data-lucide="github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="bg-white border-top py-4 mt-5">
+        <div class="container d-flex justify-content-between align-items-center">
+          <p class="mb-0 text-muted">© 2025 Portfolio. All rights reserved.</p>
+          <div class="d-flex gap-3">
+            <a href="https://github.com" class="text-muted"><i data-lucide="github"></i></a>
+            <a href="https://linkedin.com" class="text-muted"><i data-lucide="linkedin"></i></a>
+            <a href="mailto:contact@example.com" class="text-muted"><i data-lucide="mail"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
